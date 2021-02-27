@@ -1,4 +1,5 @@
 #! /bin/bash
+printf "Sec.. 5minut" >&2
 {
 sudo useradd -m mass
 sudo adduser mass sudo
