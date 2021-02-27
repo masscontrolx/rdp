@@ -24,6 +24,7 @@ sudo apt -y install obs-studio
 sudo apt -y install firefox
 sudo apt -y install terminator
 sudo adduser mass chrome-remote-desktop
+sudo apt update
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
 printf "\nError Occured " >&2
